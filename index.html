@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Home - Bridge between Artificial Intelligence and Law @ AAAI26</title>
+  <meta name="description" content="AI-LAW @ AAAI 2026 Bridge Program. Home and Committee." />
+  <meta name="theme-color" content="#0b3d91" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='0.9em' x='0.1em' font-size='80'%3E⚖️%3C/text%3E%3C/svg%3E" />
+  <style>
+    /* --- SHARED CSS --- */
+    :root { --bg: #ffffff; --ink: #0b1222; --muted: #3b4558; --brand: #0b3d91; --brand-ink: #0a2e6d; --card: #f6f8fc; --ring: rgba(11, 61, 145, 0.18); --disabled: #c0c6d4; }
+    html, body { height: 100%; margin: 0; padding: 0; }
+    body { font-family: "Times New Roman", Times, Georgia, serif; color: var(--ink); background: var(--bg); line-height: 1.5; -webkit-font-smoothing: antialiased; }
+    a { color: var(--brand); text-decoration-thickness: .08em; } a:hover { color: var(--brand-ink); }
+    .container { max-width: 980px; margin: 0 auto; padding: 0 20px; }
+    header { position: sticky; top: 0; z-index: 10; backdrop-filter: saturate(1.2) blur(6px); background: color-mix(in srgb, var(--bg) 88%, transparent); border-bottom: 1px solid #e5e8ef; }
+    .nav { display: flex; align-items: center; justify-content: space-between; padding: 14px 0; flex-wrap: wrap; }
+    .brand { font-variant: small-caps; letter-spacing: .03em; font-weight: 700; color: var(--brand); display: flex; align-items: center; gap: 10px; flex: 1; }
+    nav { display: flex; flex-wrap: wrap; justify-content: flex-end; flex: 1; }
+    .nav a { margin-left: 18px; font-size: 14px; color: var(--muted); text-decoration: none; white-space: nowrap; }
+    .nav a:hover { color: var(--brand); font-weight: 600; }
+    .nav a.active { color: var(--brand); font-weight: 700; }
+    .brand-tag { font-size: 14px; font-weight: 500; color: var(--muted); }
+    @media (max-width: 960px) { .brand { justify-content: center; width: 100%; text-align: center; } .brand-tag, nav { display: none; } }
+    
+    .hero { background: radial-gradient(1200px 400px at 50% -20%, #e9f1ff, transparent 70%); padding: 64px 0 36px; text-align: left; }
+    .hero h1 { font-size: clamp(28px, 5vw, 46px); margin: 0 0 10px; letter-spacing: .2px; }
+    .hero .badge { display: inline-block; margin-bottom: 16px; padding: 6px 14px; background: var(--brand); color: #fff; border-radius: 999px; font-size: 14px; font-weight: 600; }
+    .hero p.lead { font-size: clamp(16px, 2.5vw, 20px); color: var(--muted); max-width: 880px; }
+    @media (max-width: 640px) { .hero { text-align: center; } .hero .badge, .hero h1, .hero p.lead, .hero .cta { margin-left: auto; margin-right: auto; display: block; } }
+
+    .card { background: var(--card); border: 1px solid #e8ecf5; border-radius: 14px; padding: 18px 18px; }
+    section { padding: 26px 0; }
+    h2 { font-size: 26px; margin: 0 0 10px; }
+    
+    @media (min-width: 850px) { .grid { display: grid; gap: 16px; } .grid-2 { grid-template-columns: 1fr 1fr; } }
+    @media (max-width: 850px) { .grid { display: grid; gap: 16px; } .grid-2 { grid-template-columns: 1fr; gap: 16px; } }
+
+    footer { margin: 40px 0 60px; font-size: 14px; color: var(--muted); }
+    .cta { display: inline-block; margin-top: 8px; padding: 10px 14px; border: 1px solid var(--brand); border-radius: 10px; text-decoration: none; cursor: pointer; }
+    .cta:hover { background: #eef4ff; }
+    .cta.secondary { border-color: #c9d7f2; color: var(--brand); }
+    .cta.secondary:hover { background: #f2f7ff; }
+
+    /* Committee Grid */
+    @media (min-width: 750px) { .committee-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(380px, 1fr)); gap: 20px; align-items: start; } }
+    @media (max-width: 750px) { .committee-grid { display: grid; gap: 20px; align-items: start; } }
+    .member { display: flex; align-items: center; gap: 12px; background: white; border-radius: 10px; padding: 10px; box-shadow: 0 0 0 1px #e5e8ef; }
+    .member img { width: 64px; height: 64px; border-radius: 50%; object-fit: cover; background: #ddd; }
+    .member-info { font-size: 14px; }
+    .member-info strong { font-size: 16px; color: #0b3d91; }
+
+    /* Logos */
+    .logo-section { display:flex; justify-content:center; align-items:center; flex-wrap:wrap; gap:30px; margin:0px 0 10px; }
+    .logo-section img { height:160px; max-width:200px; object-fit:contain; transition: transform 0.2s ease; }
+    .logo-section img:hover { transform: scale(1.05); }
+    .small-note { font-size: 13px; color: var(--muted); margin-top: 8px; }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="container nav">
+      <div class="brand">
+        AI-LAW @ AAAI 2026 <span class="brand-tag">• Singapore, January 21, 2026</span>
+      </div>
+      <nav aria-label="Primary">
+        <a href="./index.html" class="active">Home</a>
+        <a href="./program.html">Schedule</a>
+        <a href="./papers.html">Accepted Papers</a>
+        <a href="./CFP.html">CFP</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="about">
+      <div class="container">
+        <div class="badge">AAAI-26 • Singapore</div>
+        <h1>Bridge between Artificial Intelligence and Law</h1>
+        <p class="lead">
+          This bridge focuses on <strong>Trustworthy AI for Legal and Law Enforcement Applications</strong>.
+          Its primary objective is to address challenges of reliability, fairness, and accountability in high‑stakes domains such as justice and public safety. By connecting communities from AI, law, and law enforcement, the bridge aims to foster interdisciplinary dialogue, advance responsible AI design, and strengthen public trust in legal technologies.
+        </p>
+        <a class="cta secondary" href="https://openreview.net/group?id=AAAI.org/2026/Bridge/AILaw" target="_blank" rel="noopener">
+          ➜ Submission Site
+        </a>
+        <a class="cta" href="https://aaai.org/conference/aaai/aaai-26/registration/" target="_blank">➜ AAAI-26 Registration</a>
+      </div>
+    </section>
+
+    <section id="committee">
+      <div class="container">
+        <div class="card">
+          <h2>Bridge Committee</h2>
+          <div class="committee-grid">
+            <div class="member">
+              <img src="./img/1.png" alt="Yiquan Wu">
+              <div class="member-info">
+                <strong>Prof. Yiquan Wu</strong><br>Guanghua Law School<br>Zhejiang University, China
+              </div>
+            </div>
+            <div class="member">
+              <img src="./img/2.jpg" alt="Kun Kuang">
+              <div class="member-info">
+                <strong>Prof. Kun Kuang</strong><br>College of Computer Science<br>Zhejiang University, China
+              </div>
+            </div>
+            <div class="member">
+              <img src="./img/3.jpg" alt="Changlong Sun">
+              <div class="member-info">
+                <strong>Dr. Changlong Sun</strong><br>Law & AI Laboratory<br>Zhejiang University, China
+              </div>
+            </div>
+            <div class="member">
+              <img src="./img/4.jpg" alt="Xiaozhong Liu">
+              <div class="member-info">
+                <strong>Prof. Xiaozhong Liu</strong><br>Computer Science<br>Worcester Polytechnic Institute, USA
+              </div>
+            </div>
+            <div class="member">
+              <img src="./img/5.jpg" alt="Zhengping Ji">
+              <div class="member-info">
+                <strong>Dr. Zhengping Ji</strong><br>Director Of Applied Science<br>Axon Enterprise, USA
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="logos">
+      <div class="container">
+        <h2 style="text-align:center; font-size:22px; color:var(--brand); margin-bottom:30px;">Organized by</h2>
+        <div class="logo-section">
+          <img src="./img/logo/1.jpg" alt="Organizer 1">
+          <img src="./img/logo/2.png" alt="Organizer 2">
+          <img src="./img/logo/3.jpg" alt="Organizer 3">
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <div class="card">
+          <h2>Contact</h2>
+          <p>Questions? Reach us at <a href="mailto:bridge-ai-law@googlegroups.com">bridge-ai-law@googlegroups.com</a>.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div>© 2025-2026 AI-LAW Bridge</div>
+    </div>
+  </footer>
+</body>
+</html>
