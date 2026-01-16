@@ -242,7 +242,10 @@
 
         const btnPoster = makeLink("Poster", p.poster_url);
         if(btnPoster) acts.appendChild(btnPoster);
-          
+
+        const btnOR = makeLink("OpenReview", p.openreview_url);
+        if(btnOR) acts.appendChild(btnOR);
+
         if (p.bibtex) {
             const bibBtn = document.createElement("button");
             bibBtn.className = "btn";
