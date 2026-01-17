@@ -27,7 +27,7 @@
     "authors": "Yuting Huang, Meitong Guo, Yiquan Wu, Ang Li, Mengze Li, Xiaozhong Liu, Keting Yin, Changlong Sun, Kun Kuang",
     "type": "Full papers",
     "pdf_url": "/assets/pdf/huang2026appealcase.pdf",
-    "poster_url": "",
+    "poster_url": "/assets/poster/huang2026appealcase.pdf",
     "openreview_url": "https://openreview.net/forum?id=P6CAVr4i4Z",
     "bibtex": "@inproceedings{huang2026appealcase,\n  author = {Yuting Huang and Meitong Guo and Yiquan Wu and Ang Li and Mengze Li and Xiaozhong Liu and Keting Yin and Changlong Sun and Kun Kuang},\n  booktitle = {Bridge between Artificial Intelligence and Law},\n  pages = {19--27},\n  title = {AppealCase: A Dataset and Benchmark for Civil Case Appeal Scenarios},\n  url = {https://openreview.net/forum?id=P6CAVr4i4Z},\n  year = {2026}\n}",
     "pages": "Pages 19-27"
