@@ -1,0 +1,100 @@
+[
+  {
+    "award": "Best Paper Award",
+    "title": "Operationalizing Human Oversight under the EU AI Act: A Five-Dimensional Framework",
+    "authors": "Xiaotong Sun",
+    "paper_id": "sun2026operationalizing",
+    "certificate": "cert_001.pdf"
+  },
+  {
+    "award": "Best Paper Honorable Award",
+    "title": "Machine Judges Reduce Sentencing Bias? A Computational Social Science Evaluation",
+    "authors": "Mingyang Chen, Zhipeng Wu",
+    "paper_id": "chen2026machine",
+    "certificate": "cert_002.pdf"
+  },
+  {
+    "award": "Best Paper Honorable Award",
+    "title": "An Epistemic Graph-Based Framework for Judicial Fact-Finding under Uncertain Beliefs",
+    "authors": "Xiao Chi, Wenjing Du",
+    "paper_id": "chi2026an",
+    "certificate": "cert_003.pdf"
+  },
+  {
+    "award": "Best Paper Honorable Award",
+    "title": "Who Should Answer? CoT-Guided Two-Stage Routing for Legal QA",
+    "authors": "Rujing Yao, Yang Wu, Jinhong Yu, Tong Zhang, Zhuoren Jiang, Xiaozhong Liu",
+    "paper_id": "yao2026who",
+    "certificate": "cert_004.pdf"
+  },
+  {
+    "award": "Best Demo Award",
+    "title": "MLCQA: A Case Retrieval-Based Question Answering System for Macao Law",
+    "authors": "Io Cheng Tong, Zhe Li, Yuhong Zhang, Hong Io Chu, Chuxin Ouyang, Ang Li",
+    "paper_id": "tong2026mlcqa",
+    "certificate": "cert_005.pdf"
+  },
+  {
+    "award": "Best Demo Honorable Award",
+    "title": "LawDigitalTwin: A Proactive and Emotionally Aware Digital Agent for Complex Commercial Disputes",
+    "authors": "Zhengzhen Qian, Xiaoliang Luo, Huaxiuyue Wang, Yilei Zhu",
+    "paper_id": "qian2026lawdigitaltwin",
+    "certificate": "cert_006.pdf"
+  },
+  {
+    "award": "Best Demo Honorable Award",
+    "title": "CLARA: A Hybrid LLM-Rule System for EU AI Act Risk Classification",
+    "authors": "Vasco Alves, Iakovina Kindylidi, Andre V Carreiro",
+    "paper_id": "alves2026clara",
+    "certificate": "cert_007.pdf"
+  },
+  {
+    "award": "Best Presentation Award",
+    "title": "Qzhou-Law: An Open Source Series of Chinese Legal Large Language Models",
+    "authors": "Yuchen Xie, Yixin Zhou, Huaitong Gao, Wensen Jiang, Jingxiang Fan, Chuhan Yan, Yazhou Wang, Haibiao Chen, Yinfei Xu, Wei Zhou",
+    "paper_id": "xie2026qzhoulaw",
+    "certificate": "cert_008.pdf"
+  },
+  {
+    "award": "Best Presentation Award",
+    "title": "HalluGraph: Auditable Hallucination Detection for Legal RAG Systems via Knowledge Graph Alignment",
+    "authors": "Valentin NOËL, Elimane Yassine SEIDOU, Charly Ken CAPO-CHICHI, Ghanem AMARI",
+    "paper_id": "noel2026hallugraph",
+    "certificate": "cert_009.pdf"
+  },
+  {
+    "award": "Best Presentation Honorable Award",
+    "title": "Generating Investigative Leads from Forensic DNA Data: Mapping Y-STR Profiles to Ancestral Haplogroups",
+    "authors": "Jan Paolo Valenzuela Moreno, Kevin Ansel S. Dy, Mia Cielo Oliveros, Francis Erdey M. Capati, Kristine Ann M. Carandang, Christian Alis",
+    "paper_id": "moreno2026generating",
+    "certificate": "cert_010.pdf"
+  },
+  {
+    "award": "Best Presentation Honorable Award",
+    "title": "AppealCase: A Dataset and Benchmark for Civil Case Appeal Scenarios",
+    "authors": "Yuting Huang, Meitong Guo, Yiquan Wu, Ang Li, Mengze Li, Xiaozhong Liu, Keting Yin, Changlong Sun, Kun Kuang",
+    "paper_id": "huang2026appealcase",
+    "certificate": "cert_011.pdf"
+  },
+  {
+    "award": "Best Presentation Honorable Award",
+    "title": "The Algorithmic Court of Experts: Dynamic AI and the Future of Legal Reasoning",
+    "authors": "Larkin Liu",
+    "paper_id": "liu2026the",
+    "certificate": "cert_012.pdf"
+  },
+  {
+    "award": "Best Presentation Honorable Award",
+    "title": "ReGal: A First Look at PPO-based Legal AI for Judgment Prediction and Summarization in India",
+    "authors": "Shubham Kumar Nigam, Tanuj Tyagi, Siddharth Shukla, Aditya Kumar Guru, Balaramamahanthi Deepak Patnaik, Danush Khanna, Noel Shallum, Kripabandhu Ghosh, Arnab Bhattacharya",
+    "paper_id": "nigam2026regal",
+    "certificate": "cert_013.pdf"
+  },
+  {
+    "award": "Best Presentation Honorable Award",
+    "title": "A Legal Semantic Tagging Framework with Large–Small Model Collaboration for Robust Detection of Online Harmful Content",
+    "authors": "Wei Wang, Ziya Ni, Ziqiu Huang",
+    "paper_id": "wang2026a",
+    "certificate": "cert_014.pdf"
+  }
+]

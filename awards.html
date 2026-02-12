@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Awards - Bridge between Artificial Intelligence and Law @ AAAI26</title>
+  <meta name="theme-color" content="#0b3d91" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='0.9em' x='0.1em' font-size='80'%3E⚖️%3C/text%3E%3C/svg%3E" />
+  <style>
+    /* --- SHARED CSS --- */
+    :root { --bg: #ffffff; --ink: #0b1222; --muted: #3b4558; --brand: #0b3d91; --brand-ink: #0a2e6d; --card: #f6f8fc; --disabled: #c0c6d4; }
+    body { font-family: "Times New Roman", Times, Georgia, serif; color: var(--ink); background: var(--bg); line-height: 1.5; margin:0; }
+    .container { max-width: 980px; margin: 0 auto; padding: 0 20px; }
+    
+    /* --- HEADER & NAVIGATION --- */
+    header { position: sticky; top: 0; z-index: 10; backdrop-filter: saturate(1.2) blur(6px); background: color-mix(in srgb, var(--bg) 88%, transparent); border-bottom: 1px solid #e5e8ef; }
+    .nav { display: flex; align-items: center; justify-content: space-between; padding: 14px 0; flex-wrap: wrap; }
+    
+    .brand { font-variant: small-caps; letter-spacing: .03em; font-weight: 700; color: var(--brand); display: flex; align-items: center; gap: 10px; font-size: 18px; }
+    .brand-tag { font-size: 14px; font-weight: 500; color: var(--muted); }
+
+    .nav-links { display: flex; align-items: center; }
+    .nav-links a { margin-left: 24px; font-size: 17px; color: var(--muted); text-decoration: none; white-space: nowrap; transition: color 0.2s; }
+    .nav-links a:hover { color: var(--brand); font-weight: 600; }
+    .nav-links a.active { color: var(--brand); font-weight: 700; }
+
+    .nav-check { display: none; }
+    .nav-btn { display: none; }
+
+    @media (max-width: 960px) {
+      .nav { padding: 10px 0; }
+      .nav-btn { display: inline-block; cursor: pointer; padding: 5px; }
+      .nav-btn span { display: block; width: 25px; height: 3px; background-color: var(--brand); margin: 5px 0; border-radius: 2px; transition: 0.3s; }
+      .brand-tag { display: none; }
+      .nav-links { display: block; width: 100%; max-height: 0; overflow: hidden; transition: max-height 0.3s ease-in-out; background: var(--bg); border-top: 1px solid transparent; }
+      #nav-check:checked ~ .nav-links { max-height: 300px; border-top: 1px solid #e5e8ef; padding-bottom: 15px; margin-top: 10px; }
+      .nav-links a { display: block; margin: 0; padding: 12px 5px; font-size: 18px; border-bottom: 1px solid #f0f0f0; text-align: center; }
+      .nav-links a:last-child { border-bottom: none; }
+    }
+      
+    /* --- PAGE CONTENT --- */
+    section { padding: 40px 0; }
+    .card { background: var(--card); border: 1px solid #e8ecf5; border-radius: 14px; padding: 24px; margin-bottom: 20px; }
+    h1 { font-size: 32px; margin-bottom: 8px; text-align: center; }
+    h2 { font-size: 22px; margin: 28px 0 12px; color: var(--brand); border-bottom: 2px solid #e5e8ef; padding-bottom: 8px; }
+    h2:first-of-type { margin-top: 0; }
+    
+    .award-entry { background: #fff; border-radius: 12px; box-shadow: 0 0 0 1px #e5e8ef; padding: 16px 20px; margin-bottom: 14px; }
+    .award-entry:last-child { margin-bottom: 0; }
+    .award-title { font-size: 17px; font-weight: 600; margin: 0 0 6px; color: var(--ink); }
+    .award-authors { font-size: 14px; color: var(--muted); margin: 0 0 10px; }
+    .award-actions { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+    
+    .btn { display: inline-flex; align-items: center; gap: 6px; padding: 6px 14px; border-radius: 8px; border: 1px solid #c9d7f2; text-decoration: none; font-size: 13px; color: var(--brand); background: #fff; cursor: pointer; font-family: inherit; }
+    .btn:hover { background: #f2f7ff; border-color: var(--brand); }
+    .btn-cert { background: var(--brand); color: #fff; border-color: var(--brand); }
+    .btn-cert:hover { background: var(--brand-ink); color: #fff; }
+
+    footer { margin: 40px 0 60px; font-size: 14px; color: var(--muted); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="brand">
+        AI-LAW @ AAAI 2026 <span class="brand-tag">• Singapore, January 21, 2026</span>
+      </div>
+
+      <input type="checkbox" id="nav-check" class="nav-check">
+      <label for="nav-check" class="nav-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <nav class="nav-links">
+        <a href="./index.html">Home</a>
+        <a href="./program.html">Schedule</a>
+        <a href="./papers.html">Accepted Papers</a>
+        <a href="./awards.html" class="active">Awards</a>
+        <a href="./CFP.html">CFP</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section>
+      <h1>Awards</h1>
+      <p style="text-align:center; color:var(--muted); margin-bottom:32px;">Congratulations to all award winners at AILaw 2026!</p>
+      
+      <div id="awardsContent">
+        <div style="text-align:center; color:#999; padding:20px;">Loading awards...</div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div>© 2025-2026 AI-LAW Bridge</div>
+    </div>
+  </footer>
+
+  <script>
+    const AWARDS_JSON_URL = "./assets/awards.json";
+    const PAPERS_JSON_URL = "./assets/papers.json";
+    const CERT_BASE = "./assets/certificates/";
+
+    const contentEl = document.getElementById("awardsContent");
+
+    function safeText(x) { return (x ?? "").toString().trim(); }
+
+    async function init() {
+      try {
+        const [awardsResp, papersResp] = await Promise.all([
+          fetch(AWARDS_JSON_URL),
+          fetch(PAPERS_JSON_URL)
+        ]);
+        if (!awardsResp.ok) throw new Error("awards.json not found");
+        const awards = await awardsResp.json();
+        
+        let papersMap = {};
+        if (papersResp.ok) {
+          const papers = await papersResp.json();
+          papers.forEach(p => { if (p.id) papersMap[p.id] = p; });
+        }
+
+        // Group by award category
+        const grouped = {};
+        awards.forEach(entry => {
+          const key = safeText(entry.award);
+          if (!grouped[key]) grouped[key] = [];
+          const paper = papersMap[entry.paper_id];
+          const authors = paper && paper.authors ? paper.authors : entry.authors;
+          grouped[key].push({ ...entry, authors });
+        });
+
+        // Award display order
+        const order = [
+          "Best Paper Award",
+          "Best Paper Honorable Award",
+          "Best Demo Award",
+          "Best Demo Honorable Award",
+          "Best Presentation Award",
+          "Best Presentation Honorable Award"
+        ];
+
+        let html = "";
+        for (const awardName of order) {
+          const entries = grouped[awardName];
+          if (!entries || entries.length === 0) continue;
+
+          html += `<div class="card"><h2>${awardName}</h2>`;
+          entries.forEach(e => {
+            const certUrl = e.certificate ? CERT_BASE + e.certificate : null;
+            const certLink = certUrl
+              ? `<a class="btn btn-cert" href="${certUrl}" target="_blank" rel="noopener">📄 Download Certificate</a>`
+              : "";
+            html += `
+              <div class="award-entry">
+                <div class="award-title">${safeText(e.title)}</div>
+                <div class="award-authors">Authors: ${safeText(e.authors)}</div>
+                <div class="award-actions">${certLink}</div>
+              </div>
+            `;
+          });
+          html += "</div>";
+        }
+
+        contentEl.innerHTML = html || "<div class='card'><p style='color:#999;'>No awards data available.</p></div>";
+      } catch (e) {
+        contentEl.innerHTML = "<div class='card'><p style='color:#b00020;'>Error loading awards. Please ensure ./assets/awards.json exists.</p></div>";
+      }
+    }
+    init();
+  </script>
+</body>
+</html>
